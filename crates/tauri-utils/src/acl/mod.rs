@@ -71,7 +71,7 @@ pub mod value;
 /// Possible errors while processing ACL files.
 #[derive(Debug, Error)]
 pub enum Error {
-  /// Could not find an environmental variable that is set inside of build scripts.
+  /// Could not find an environment variable that is set inside of build scripts.
   ///
   /// Whatever generated this should be called inside of a build script.
   #[error("expected build script env var {0}, but it was not found - ensure this is called in a build script")]

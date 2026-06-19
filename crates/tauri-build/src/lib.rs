@@ -441,7 +441,7 @@ pub fn is_dev() -> bool {
 ///
 /// Platform specific code is handled by the helpers automatically.
 ///
-/// A build script is required in order to activate some cargo environmental variables that are
+/// A build script is required in order to activate some cargo environment variables that are
 /// used when generating code and embedding assets.
 ///
 /// # Panics

@@ -50,7 +50,7 @@ pub enum CodegenConfigError {
   ConfigError(#[from] ConfigError),
 }
 
-/// Get the [`Config`] from the `TAURI_CONFIG` environmental variable, or read from the passed path.
+/// Get the [`Config`] from the `TAURI_CONFIG` environment variable, or read from the passed path.
 ///
 /// If the passed path is relative, it should be relative to the current working directory of the
 /// compiling crate.

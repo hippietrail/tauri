@@ -90,7 +90,7 @@ impl<'a> Builder<'a> {
   ///
   /// # Errors
   ///
-  /// Errors will occur if environmental variables expected to be set inside of [build scripts]
+  /// Errors will occur if environment variables expected to be set inside of [build scripts]
   /// are not found, or if the crate violates Tauri plugin conventions.
   pub fn try_build(self) -> Result<()> {
     // convention: plugin names should not use underscores
